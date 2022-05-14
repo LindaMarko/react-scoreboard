@@ -75,7 +75,7 @@ class App extends Component {
             key={player.id.toString()}
             index={index}
             removePlayer={this.handleRemovePlayer}
-            changeScorer={this.handleScoreChange}
+            changeScore={this.handleScoreChange}
           />
         ))}
 
